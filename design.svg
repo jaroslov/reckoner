@@ -9,37 +9,23 @@
         <g id="16spoke-2in">
             <use xlink:href="16spoke-2in.svg#hpgl2svg"/>
         </g>
-        <g id="spur-gear-train" name="spur gear train">
-            <use name="gear b" xlink:href="#8spoke-1in" x="0" y="0"/>
-            <use name="pinion bl" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(-0.875 0) rotate(22.5)"/>
-            <use name="pinion br" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(+0.875 0) rotate(22.5)"/>
-            <use name="pinion tl" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(-0.4375 +0.79) rotate(33)"/>
-            <use name="pinion tr" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(+0.4375 -0.79) rotate(33)"/>
+        <g id="spur-gear-train">
+            <use xlink:href="spur-gear-train.svg#spur-gear-train"/>
         </g>
-        <g id="cage-back-side" name="back-side cage">
-            <path d="M -1.8 -1.2 l 3.6 0 l 0 2.4 l -3.6 0 z" stroke-width=".01" stroke="red" fill="none"/>
-            <circle cx="0" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="-0.875" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="+0.875" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="-0.4375" cy="+0.79" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="+0.4375" cy="-0.79" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <!-- cut outs -->
-            <path />
+        <g id="cage-back-side">
+            <use xlink:href="cage.svg#cage-back-side"/>
         </g>
-        <g id="cage-top-side" name="top-side cage">
-          <path d="M -0.5 -1.2 l 1.0 0 l 0 2.4 l -1.0 0 z" stroke-width=".01" stroke="red" fill="none"/>
+        <g id="cage-top-side">
+            <use xlink:href="cage.svg#cage-top-side"/>
         </g>
-        <g id="spacer" name="spacer">
-          <circle cx="0" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-          <circle cx="0" cy="0" r=".33" stroke-width="0.01" stroke="red" fill="none"/>
+        <g id="cage-jig-pocket">
+            <use xlink:href="cage.svg#cage-jig-pocket"/>
         </g>
-        <g id="cage-jig-pocket" name="cage jig pocket">
-          <path d="M -1.825 -0.755 l 3.65 0 l 0 1.51 l -3.65 0 z" stroke-width=".01" stroke="red" fill="none" />
-          <path d="M -2.075 -1.005 l 4.15 0 l 0 2.01 l -4.15 0 z" stroke-width=".01" stroke="red" fill="none" />
+        <g id="cage-jig-guide">
+            <use xlink:href="cage.svg#cage-jig-guide"/>
         </g>
-        <g id="cage-jig-guide" name="cage jig guide">
-          <path d="M -1.825 -0.755 l 3.65 0 l 0 1.51 l -3.65 0 z" stroke-width=".01" stroke="blue" fill="none" />
-          <path d="M -2.075 -1.005 l 4.15 0 l 0 2.01 l -4.15 0 z" stroke-width=".01" stroke="red" fill="none" />
+        <g id="spacer">
+            <use xlink:href="cage.svg#spacer"/>
         </g>
     </defs>
 
@@ -61,9 +47,7 @@
     <use xlink:href="#spacer" y="2" />
     <text fill="blue" text-anchor="middle" y="1.83" font-size="0.1" font-family="courier">Spacer</text>
 
-    <!--
     <use xlink:href="#spur-gear-train" />
-  -->
 </svg>
 
 <!--
