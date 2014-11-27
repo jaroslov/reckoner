@@ -1,4 +1,4 @@
-reckoner
+The Reckoner.
 ========
 
-The Reckoner
+The Reckoner.
