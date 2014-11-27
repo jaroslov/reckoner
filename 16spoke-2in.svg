@@ -801,6 +801,7 @@ l -0.008377,-0.003141
 l -0.007330,-0.002094
 l 0.011518,-0.051309
 " stroke="red" stroke-width="0.01" fill="none"/>
+    <text text-anchor="middle" y="-.4" font-size="0.1" font-family="courier" fill="blue">2:1 Output</text>
 </g>
 </defs>
 <line x1="-.126" y1="0" x2=".126" y2="0" stroke-width="0.02" fill="black" stroke="blue" />
