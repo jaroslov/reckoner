@@ -26,5 +26,9 @@
             <circle cx="0" cy="0" r="12.7" stroke="red" stroke-width="1px" fill="none" transform="scale(0.01 0.01)"/>
             <text fill="blue" text-anchor="middle" x="0" y="-.3" font-size=".01" font-family="courier">Axle Face</text>
         </g>
+        <g id="roller-axle">
+            <circle cx="0" cy="0" r=".0633in" fill="none" stroke="red" stroke-width="1px" transform="scale(0.01 0.01)"/>
+            <text fill="blue" text-anchor="middle" x="0" y=".03" font-size=".01" font-family="courier">a</text>
+        </g>
     </defs>
 </svg>

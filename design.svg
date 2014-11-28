@@ -39,6 +39,9 @@
         <g id="roller-clutch-axle-face">
             <use xlink:href="roller-clutch.svg#roller-clutch-axle-face"/>
         </g>
+        <g id="roller-axle">
+            <use xlink:href="roller-clutch.svg#roller-axle"/>
+        </g>
     </defs>
 
     <use xlink:href="#16spoke-2in" x="3.5" y="-3" />
@@ -51,15 +54,18 @@
 
     <use xlink:href="#cage-jig-guide" y="-3"/>
 
-    <use xlink:href="#spacer" y="2"/>
+    <use xlink:href="#spacer" y="2" x="-1.5"/>
+
+    <use xlink:href="#8spoke-1in" x="4" />
 <!--
     <use xlink:href="#spur-gear-train" display="none" />
 -->
     <!-- 3.5mm round brass rod -->
-    <use xlink:href="#roller-clutch" y="2" x="1"/>
+    <use xlink:href="#roller-clutch" y="2" x="0"/>
     <use xlink:href="#roller-clutch-race" y="2" x="3" />
-    <use xlink:href="#roller-clutch-pass-face" y="2" x="-1.5" />
+    <use xlink:href="#roller-clutch-pass-face" y="2" x="1.5" />
     <use xlink:href="#roller-clutch-axle-face" y="2" x="4.5"/>
+    <use xlink:href="#roller-axle" y="2" x="-.75" />
 </svg>
 
 <!--
