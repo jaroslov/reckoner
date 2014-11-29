@@ -1,0 +1,149 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20in" height="20in" viewBox="-10 -10 20 20">
+<!--
+    This is a box that delivers power; it should be parametrized by height and width.
+
+    Gears have center-to-center mesh distance of 0.875".
+( 0.5 o  0.875  o  0.875  o  0.875  o  0.875  o  0.875  o 0.5 )
+    => 4*0.875 + 1 => 5.375
+Make it 12" long.
+-->
+
+    <defs>
+        <g id="axle-anchor-6x">
+            <path d="M -2.625 -.4375
+
+                     l .3325 0
+                     l 0 .25
+                     l .21 0
+                     l 0 -.25
+                     l .3325 0
+                     l .3325 0
+                     l .21 0
+                     l .3325 0
+                     l .3325 0
+                     l 0 .25
+                     l .21 0
+                     l 0 -.25
+                     l .3325 0
+                     l .3325 0
+                     l .21 0
+                     l .3325 0
+                     l .3325 0
+                     l 0 .25
+                     l .21 0
+                     l 0 -.25
+                     l .3325 0
+                     l .3325 0
+                     l .21 0
+                     l .3325 0
+
+                     l 0 1.0
+
+
+                     l -.3325 0
+                     l -.21 0
+                     l -.3325 0
+                     l -.3325 0
+                     l -0 -.25
+                     l -.21 0
+                     l -0 +.25
+                     l -.3325 0
+                     l -.3325 0
+                     l -.21 0
+                     l -.3325 0
+                     l -.3325 0
+                     l -0 -.25
+                     l -.21 0
+                     l -0 +.25
+                     l -.3325 0
+                     l -.3325 0
+                     l -.21 0
+                     l -.3325 0
+                     l -.3325 0
+                     l -0 -.25
+                     l -.21 0
+                     l -0 +.25
+                     l -.3325 0
+                     z" stroke-width=".01" stroke="red" fill="none"/>
+            <circle cx=".4375" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="1.3125" cy="0" r=".13" stroke-width="0.01" stroke="blue" fill="none"/>
+            <circle cx="2.1875" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-.4375" cy="0" r=".13" stroke-width="0.01" stroke="blue" fill="none"/>
+            <circle cx="-1.3125" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-2.1875" cy="0" r=".13" stroke-width="0.01" stroke="blue" fill="none"/>
+            <text fill="blue" text-anchor="middle" x="0" y="-.25" font-size=".01" font-family="courier">Top</text>
+            <text fill="blue" text-anchor="middle" x="0" y="0.22" font-size=".01" font-family="courier">Axle Anchor 6x</text>
+            <text fill="blue" text-anchor="middle" x="0" y=".50" font-size=".01" font-family="courier">Bottom</text>
+        </g>
+        <g id="anchor-rail-6x">
+            <path d="M -5.5 -.25
+                     l .395 0 l 0 .25 l .21 0 l 0 -.25 l .395 0
+                     l .395 0 l 0 .25 l .21 0 l 0 -.25 l .395 0
+                     l .395 0 l 0 .25 l .21 0 l 0 -.25 l .395 0
+                     l .395 0 l 0 .25 l .21 0 l 0 -.25 l .395 0
+                     l .395 0 l 0 .25 l .21 0 l 0 -.25 l .395 0
+                     l .395 0 l 0 .25 l .21 0 l 0 -.25 l .395 0
+                     l .395 0 l 0 .25 l .21 0 l 0 -.25 l .395 0
+                     l .395 0 l 0 .25 l .21 0 l 0 -.25 l .395 0
+                     l .395 0 l 0 .25 l .21 0 l 0 -.25 l .395 0
+                     l .395 0 l 0 .25 l .21 0 l 0 -.25 l .395 0
+                     l 0 0.5 l -10 0 z" stroke-width=".01" stroke="red" fill="none"/>
+            <text fill="blue" text-anchor="middle" x="0" y=".15" font-size=".01" font-family="courier">Axle Rail 6x</text>
+        </g>
+        <g id="mounting-rail-6x">
+            <path d="M -2.625 -.5
+                    l 5.25 0
+                    l 0 1
+                    l -.75 0 l 0 -.25 l -.21 0 l 0 .25 l -3.33 0 l 0 -.25 l -.21 0 l 0 .25 l -.75 0 z" stroke-width=".01" stroke="red" fill="none"/>
+            <text fill="blue" text-anchor="middle" x="0" y="-.35" font-size=".01" font-family="courier">Top</text>
+            <text fill="blue" text-anchor="middle" x="0" y="0.15" font-size=".01" font-family="courier">Mounting Rail 6x</text>
+            <text fill="blue" text-anchor="middle" x="0" y=".35" font-size=".01" font-family="courier">Bottom</text>
+        </g>
+        <!--
+            If you fit an axle-rail on top of the axle-anchor, and then put a
+            mounting dependent above that, you've got 0.4075 spacing.
+        -->
+        <g id="mounting-dependent-6x">
+            <path d="M -2.625 0
+
+                     l .105 0
+                     l 0 -.22
+                     l 0.665 0
+                     l 0 .22
+                     l .21 0
+                     l 0 -.22
+                     l .3325 0
+                     l .3325 0
+                     l 0 .22
+                     l .21 0
+                     l 0 -.22
+                     l .3325 0
+                     l .3325 0
+                     l 0 .22
+                     l .21 0
+                     l 0 -.22
+                     l .3325 0
+                     l .3325 0
+                     l 0 .22
+                     l .21 0
+                     l 0 -.22
+                     l .3325 0
+                     l .3325 0
+                     l 0 .22
+                     l .21 0
+                     l 0 -.22
+                     l .3325 0
+                     l .3325 0
+                     l 0 .22
+                     l .105 0
+
+                     l 0 0.1875
+                     l -5.25 0
+                    z" stroke-width=".01" stroke="red" fill="none" />
+                    <text fill="blue" text-anchor="middle" x="0.45" y="0" font-size=".01" font-family="courier">Mounting</text>
+                    <text fill="blue" text-anchor="middle" x="0.45" y=".1" font-size=".01" font-family="courier">Dependent</text>
+        </g>
+    </defs>
+</svg>

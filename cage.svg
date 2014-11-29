@@ -30,5 +30,42 @@
             <path d="M -2.075 -1.005 l 4.15 0 l 0 1.83 l -4.15 0 z" stroke-width=".01" stroke="red" fill="none" />
             <text fill="blue" text-anchor="middle" x="0" y="0" font-size=".01" font-family="courier">Spur Gear Cage Jig Guide</text>
         </g>
+        <!--
+            Inter-gear distance is .875. The top of the axle-anchor/rail
+            assembly is .25 above shaft center. This gives .625 for the next
+            gear. We need two full gears above this.
+        -->
+        <g id="cage-axle-mount">
+            <path d="M -1.335 -1
+                    l .25 0
+                    l 0 +.25
+                    l .21 0
+                    l 0 -.25
+                    l 1.75 0
+                    l 0 +.25
+                    l .21 0
+                    l 0 -.25
+                    l .25 0
+                    l 0 3.625
+                    l -.25 0
+                    l -0 -.25
+                    l -.21 0
+                    l -0 .25
+                    l -1.75 0
+                    l -0 -.25
+                    l -.21 0
+                    l -0 +.25
+                    l -.25 0
+                    z" stroke-width=".01" stroke="red" fill="none" />
+            <circle cx="0" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="0" cy=".875" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="0" cy="1.75" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="0.875" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="0.875" cy=".875" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="0.875" cy="1.75" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-0.875" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-0.875" cy=".875" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-0.875" cy="1.75" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+        </g>
     </defs>
 </svg>

@@ -24,6 +24,9 @@
         <g id="cage-jig-guide">
             <use xlink:href="cage.svg#cage-jig-guide"/>
         </g>
+        <g id="cage-axle-mount">
+            <use xlink:href="cage.svg#cage-axle-mount"/>
+        </g>
         <g id="spacer">
             <use xlink:href="cage.svg#spacer"/>
         </g>
@@ -42,9 +45,28 @@
         <g id="roller-axle">
             <use xlink:href="roller-clutch.svg#roller-axle"/>
         </g>
+        <g id="axle-anchor-6x">
+            <use xlink:href="power-cage.svg#axle-anchor-6x"/>
+        </g>
+        <g id="anchor-rail-6x">
+            <use xlink:href="power-cage.svg#anchor-rail-6x"/>
+        </g>
+        <g id="mounting-rail-6x">
+            <use xlink:href="power-cage.svg#mounting-rail-6x"/>
+        </g>
+        <g id="mounting-dependent-6x">
+            <use xlink:href="power-cage.svg#mounting-dependent-6x"/>
+        </g>
     </defs>
 
+    <use xlink:href="#axle-anchor-6x" x="0" y="4" />
+    <use xlink:href="#anchor-rail-6x" x="0" y="6" />
+    <use xlink:href="#mounting-rail-6x" x="5.5" y="4.75" />
+    <use xlink:href="#mounting-dependent-6x" x="-4" y="3" />
+
     <use xlink:href="#16spoke-2in" x="3.5" y="-3" />
+
+    <use xlink:href="#cage-axle-mount" x="-3.5" y="-1" />
 
     <use xlink:href="#cage-back-side" />
 
