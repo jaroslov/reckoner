@@ -31,41 +31,65 @@
             <text fill="blue" text-anchor="middle" x="0" y="0" font-size=".01" font-family="courier">Spur Gear Cage Jig Guide</text>
         </g>
         <!--
-            Inter-gear distance is .875. The top of the axle-anchor/rail
-            assembly is .25 above shaft center. This gives .625 for the next
-            gear. We need two full gears above this.
+            Distance from 2" to 1" is 1+.5 - .25 => 1.375
+            Widest width of the cage is (3.6)^2 + (2.4)^2 == 18.72
+            Radius of rectangle is: 2.17.
+
+                      <-A->
+                   [  o  ][o]
+            [o][o][o][o]
+             <-   B  ->
+            A: 1.375 + .26 + .25
+            B: 2.625 + .26 + .25
+            T: 5.02
         -->
         <g id="cage-axle-mount">
-            <path d="M -1.335 -1
-                    l .25 0
-                    l 0 +.25
-                    l .21 0
+            <path d="M -3.385 -1
+                    l 0.5 0
+                    l 0 .25
+                    l 0.21 0
                     l 0 -.25
-                    l 1.75 0
-                    l 0 +.25
-                    l .21 0
+                    l 2.29 0
+                    l 0 .25
+                    l 0.21 0
                     l 0 -.25
-                    l .25 0
-                    l 0 3.625
-                    l -.25 0
-                    l -0 -.25
+                    l 0.29 0
+                    l 2 0
+                    l 0 1
+                    l 0 2.625
+                    l 0 0.5
+                    l -.5 0
+                    l 0 -.25
                     l -.21 0
-                    l -0 .25
-                    l -1.75 0
-                    l -0 -.25
+                    l 0 +.25
+                    l -.79 0
+                    l -2.0 0
+                    l -.79 0
+                    l 0 -.25
                     l -.21 0
-                    l -0 +.25
-                    l -.25 0
-                    z" stroke-width=".01" stroke="red" fill="none" />
-            <circle cx="0" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="0" cy=".875" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="0" cy="1.75" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="0.875" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="0.875" cy=".875" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="0.875" cy="1.75" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="-0.875" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="-0.875" cy=".875" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <circle cx="-0.875" cy="1.75" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+                    l 0 +.25
+                    l -1 0
+                    z" stroke-width=".01" stroke="red" fill="none"/>
+            <circle cx="0"      cy="0"      r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="1.375"  cy="0"      r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-0.875" cy="0"      r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-1.75"  cy="0"      r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-2.625" cy="0"      r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="0"      cy="2.625"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-0.875" cy="2.625"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-1.75"  cy="2.625"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-2.625" cy="2.625"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <text fill="blue" text-anchor="middle" x="-.5" y="-.25" font-size=".01" font-family="courier">Top</text>
+            <text fill="blue" text-anchor="middle" x="-.5" y="1.5" font-size=".01" font-family="courier">Cage Axle Mount</text>
+            <text fill="blue" text-anchor="middle" x="-.5" y="2.75" font-size=".01" font-family="courier">Bottom</text>
+        </g>
+        <g id="cage-rail-mount">
+            <path d="M -1.825 -0.755
+                l 3.65 0
+                l 0 1.33
+                l -3.65 0
+                z" stroke-width=".01" stroke="red" fill="none" />
+            <text fill="blue" text-anchor="middle" font-size=".01" font-family="courier">Cage Rail Mount</text>
         </g>
     </defs>
 </svg>

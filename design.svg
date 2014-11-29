@@ -27,6 +27,9 @@
         <g id="cage-axle-mount">
             <use xlink:href="cage.svg#cage-axle-mount"/>
         </g>
+        <g id="cage-rail-mount">
+            <use xlink:href="cage.svg#cage-rail-mount"/>
+        </g>
         <g id="spacer">
             <use xlink:href="cage.svg#spacer"/>
         </g>
@@ -45,43 +48,25 @@
         <g id="roller-axle">
             <use xlink:href="roller-clutch.svg#roller-axle"/>
         </g>
-        <g id="axle-anchor-6x">
-            <use xlink:href="power-cage.svg#axle-anchor-6x"/>
-        </g>
-        <g id="anchor-rail-6x">
-            <use xlink:href="power-cage.svg#anchor-rail-6x"/>
-        </g>
-        <g id="mounting-rail-6x">
-            <use xlink:href="power-cage.svg#mounting-rail-6x"/>
-        </g>
-        <g id="mounting-dependent-6x">
-            <use xlink:href="power-cage.svg#mounting-dependent-6x"/>
-        </g>
     </defs>
 
-    <use xlink:href="#axle-anchor-6x" x="0" y="4" />
-    <use xlink:href="#anchor-rail-6x" x="0" y="6" />
-    <use xlink:href="#mounting-rail-6x" x="5.5" y="4.75" />
-    <use xlink:href="#mounting-dependent-6x" x="-4" y="3" />
-
     <use xlink:href="#16spoke-2in" x="3.5" y="-3" />
-
-    <use xlink:href="#cage-axle-mount" x="-3.5" y="-1" />
-
-    <use xlink:href="#cage-back-side" />
-
-    <use xlink:href="#cage-top-side" x="3"/>
-
-    <use xlink:href="#cage-jig-pocket" y="-5.5" />
-
-    <use xlink:href="#cage-jig-guide" y="-3"/>
-
+    <use xlink:href="#8spoke-1in" x="4" />
     <use xlink:href="#spacer" y="2" x="-1.5"/>
 
-    <use xlink:href="#8spoke-1in" x="4" />
-<!--
-    <use xlink:href="#spur-gear-train" display="none" />
--->
+    <use xlink:href="#cage-back-side" />
+    <use xlink:href="#cage-top-side" x="3"/>
+    <use xlink:href="#cage-jig-pocket" y="-5.5" />
+    <use xlink:href="#cage-jig-guide" y="-3"/>
+    <use xlink:href="#spur-gear-train" display="none"/>
+
+    <use xlink:href="#cage-axle-mount" x="-5" y="-1" />
+    <use xlink:href="#16spoke-2in" display="yes" transform="translate(-3.625 -1) rotate(11.25)" />
+    <use xlink:href="#8spoke-1in" display="yes" transform="translate(-5 -1)" />
+    <use xlink:href="#8spoke-1in" display="yes" transform="translate(-5.875 -1)" />
+    <use xlink:href="#8spoke-1in" display="yes" transform="translate(-6.75 -1)" />
+    <use xlink:href="#cage-rail-mount" x="-5" y="3" />
+
     <!-- 3.5mm round brass rod -->
     <use xlink:href="#roller-clutch" y="2" x="0"/>
     <use xlink:href="#roller-clutch-race" y="2" x="3" />
