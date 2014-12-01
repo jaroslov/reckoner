@@ -79,10 +79,24 @@
             <circle cx="-0.875" cy="2.625"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
             <circle cx="-1.75"  cy="2.625"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
             <circle cx="-2.625" cy="2.625"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="0"      cy="0.875"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-2.625" cy="0.875"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="0"      cy="1.750"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-2.625" cy="1.750"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
             <text fill="blue" text-anchor="middle" x="-.5" y="-.25" font-size=".01" font-family="courier">Top</text>
             <text fill="blue" text-anchor="middle" x="-.5" y="1.5" font-size=".01" font-family="courier">Cage Axle Mount</text>
             <text fill="blue" text-anchor="middle" x="-.5" y="2.75" font-size=".01" font-family="courier">Bottom</text>
         </g>
+        <!--
+            [-2-]
+        +-----------+           ^
+        | -- -- --  | ^         |
+        | -- -- --  | | 5.2*4   |
+        | -- -- --  | |         | 5.2*6
+        | -- -- --  | v         |
+        +-----------+           v
+            [-2-]
+        -->
         <g id="cage-rail-mount">
             <path d="M -1.825 -0.755
                 l 3.65 0
