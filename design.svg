@@ -51,7 +51,7 @@
     </defs>
 
     <use xlink:href="#16spoke-2in" x="3.5" y="-3" />
-    <use xlink:href="#8spoke-1in" x="4" />
+    <use xlink:href="#8spoke-1in" x="4.5" />
     <use xlink:href="#spacer" y="2" x="-1.5"/>
 
     <use xlink:href="#cage-back-side" />
@@ -61,11 +61,11 @@
     <use xlink:href="#spur-gear-train" display="none"/>
 
     <use xlink:href="#cage-axle-mount" x="-5" y="-1" />
-    <use xlink:href="#16spoke-2in" display="yes" transform="translate(-3.625 -1) rotate(11.25)" />
-    <use xlink:href="#8spoke-1in" display="yes" transform="translate(-5 -1)" />
-    <use xlink:href="#8spoke-1in" display="yes" transform="translate(-5.875 -1)" />
-    <use xlink:href="#8spoke-1in" display="yes" transform="translate(-6.75 -1)" />
-    <use xlink:href="#cage-rail-mount" x="-5" y="3" />
+    <use xlink:href="#16spoke-2in" display="none" transform="translate(-3.625 -1) rotate(11.25)" />
+    <use xlink:href="#8spoke-1in" display="none" transform="translate(-5 -1)" />
+    <use xlink:href="#8spoke-1in" display="none" transform="translate(-5.875 -1)" />
+    <use xlink:href="#8spoke-1in" display="none" transform="translate(-6.75 -1)" />
+    <use xlink:href="#cage-rail-mount" x="-3" y="4" />
 
     <!-- 3.5mm round brass rod -->
     <use xlink:href="#roller-clutch" y="2" x="0"/>
@@ -74,11 +74,3 @@
     <use xlink:href="#roller-clutch-axle-face" y="2" x="4.5"/>
     <use xlink:href="#roller-axle" y="2" x="-.75" />
 </svg>
-
-<!--
-
-soh = opposite/hypotenuse
-sin(60) = o/105
-o = 105/sin(60)
-
--->

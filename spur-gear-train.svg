@@ -7,10 +7,10 @@
         </g>
         <g id="spur-gear-train" name="spur gear train">
             <use name="gear b" xlink:href="#8spoke-1in" x="0" y="0"/>
-            <use name="pinion bl" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(-0.875 0) rotate(22.5)"/>
-            <use name="pinion br" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(+0.875 0) rotate(22.5)"/>
-            <use name="pinion tl" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(-0.4375 +0.79) rotate(33)"/>
-            <use name="pinion tr" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(+0.4375 -0.79) rotate(33)"/>
+            <use name="pinion tl" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(-0.75777 -0.4375) rotate(-8)"/>
+            <use name="pinion bl" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(-0.75777 +0.4375) rotate(-16)"/>
+            <use name="pinion tr" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(+0.75777 -0.4375) rotate(+8)"/>
+            <use name="pinion br" xlink:href="#8spoke-1in" x="0" y="0" transform="translate(+0.75777 +0.4375) rotate(+16)"/>
         </g>
     </defs>
 </svg>
