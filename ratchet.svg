@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20in" height="20in" viewBox="-10 -10 20 20">
+<defs>
+    <g id="ratchet-gear">
+        <line x1="-.21" y1="0.5" x2=".21" y2="0.5" stroke-width="0.01" stroke="blue" fill="none" display="none" transform="rotate(0)" />
+        <line x1="-.21" y1="0.5" x2=".21" y2="0.5" stroke-width="0.01" stroke="blue" fill="none" display="none" transform="rotate(45)" />
+        <line x1="-.21" y1="0.5" x2=".21" y2="0.5" stroke-width="0.01" stroke="blue" fill="none" display="none" transform="rotate(90)" />
+        <line x1="-.21" y1="0.5" x2=".21" y2="0.5" stroke-width="0.01" stroke="blue" fill="none" display="none" transform="rotate(135)" />
+        <line x1="-.21" y1="0.5" x2=".21" y2="0.5" stroke-width="0.01" stroke="blue" fill="none" display="none" transform="rotate(180)" />
+        <line x1="-.21" y1="0.5" x2=".21" y2="0.5" stroke-width="0.01" stroke="blue" fill="none" display="none" transform="rotate(225)" />
+        <line x1="-.21" y1="0.5" x2=".21" y2="0.5" stroke-width="0.01" stroke="blue" fill="none" display="none" transform="rotate(270)" />
+        <line x1="-.21" y1="0.5" x2=".21" y2="0.5" stroke-width="0.01" stroke="blue" fill="none" display="none" transform="rotate(315)" />
+
+        <path d="M -.25 +0.45 l +0.45 +0.2 l -0.055 -0.155" stroke-width="0.01" stroke="red" fill="none" transform="rotate(0)"/>
+        <path d="M -.25 +0.45 l +0.45 +0.2 l -0.055 -0.155" stroke-width="0.01" stroke="red" fill="none" transform="rotate(45)"/>
+        <path d="M -.25 +0.45 l +0.45 +0.2 l -0.055 -0.155" stroke-width="0.01" stroke="red" fill="none" transform="rotate(90)"/>
+        <path d="M -.25 +0.45 l +0.45 +0.2 l -0.055 -0.155" stroke-width="0.01" stroke="red" fill="none" transform="rotate(135)"/>
+        <path d="M -.25 +0.45 l +0.45 +0.2 l -0.055 -0.155" stroke-width="0.01" stroke="red" fill="none" transform="rotate(180)"/>
+        <path d="M -.25 +0.45 l +0.45 +0.2 l -0.055 -0.155" stroke-width="0.01" stroke="red" fill="none" transform="rotate(225)"/>
+        <path d="M -.25 +0.45 l +0.45 +0.2 l -0.055 -0.155" stroke-width="0.01" stroke="red" fill="none" transform="rotate(270)"/>
+        <path d="M -.25 +0.45 l +0.45 +0.2 l -0.055 -0.155" stroke-width="0.01" stroke="red" fill="none" transform="rotate(315)"/>
+
+        <circle cx="0" cy="0" r="0.13" stroke="red" stroke-width="0.01" fill="none"/>
+        <text fill="blue" y="-.25" text-anchor="middle" font-size=".01" font-family="courier">Ratchet Gear</text>
+    </g>
+    <g id="ratchet-pall">
+        <path d="M -0.15    -0.15
+                 l +1.15    +0.15
+                 l -0.05    -0.25
+                 l -1.00    -0.45
+                 z" stroke="red" stroke-width="0.01" fill="none"/>
+        <circle cx="+.158" cy="-0.34" r="0.13" stroke="red" stroke-width="0.01" fill="none"/>
+        <text fill="blue" transform="translate(0.6 -.1) rotate(7)" text-anchor="middle" font-size=".01" font-family="courier">Ratchet Pall</text>
+    </g>
+</defs>
+</svg>

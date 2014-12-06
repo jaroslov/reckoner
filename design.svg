@@ -33,23 +33,15 @@
         <g id="spacer">
             <use xlink:href="cage.svg#spacer"/>
         </g>
-        <g id="roller-clutch">
-            <use xlink:href="roller-clutch.svg#roller-clutch"/>
+        <g id="ratchet-gear">
+            <use xlink:href="ratchet.svg#ratchet-gear"/>
         </g>
-        <g id="roller-clutch-race">
-            <use xlink:href="roller-clutch.svg#roller-clutch-race"/>
-        </g>
-        <g id="roller-clutch-pass-face">
-            <use xlink:href="roller-clutch.svg#roller-clutch-pass-face"/>
-        </g>
-        <g id="roller-clutch-axle-face">
-            <use xlink:href="roller-clutch.svg#roller-clutch-axle-face"/>
-        </g>
-        <g id="roller-axle">
-            <use xlink:href="roller-clutch.svg#roller-axle"/>
+        <g id="ratchet-pall">
+            <use xlink:href="ratchet.svg#ratchet-pall"/>
         </g>
     </defs>
 
+    <g display="show">
     <use xlink:href="#16spoke-2in" x="3.5" y="-3" />
     <use xlink:href="#8spoke-1in" x="4.5" />
     <use xlink:href="#spacer" y="2" x="-1.5"/>
@@ -66,11 +58,7 @@
     <use xlink:href="#8spoke-1in" display="none" transform="translate(-5.875 -1)" />
     <use xlink:href="#8spoke-1in" display="none" transform="translate(-6.75 -1)" />
     <use xlink:href="#cage-rail-mount" x="-3" y="4" />
-
-    <!-- 3.5mm round brass rod -->
-    <use xlink:href="#roller-clutch" y="2" x="0"/>
-    <use xlink:href="#roller-clutch-race" y="2" x="3" />
-    <use xlink:href="#roller-clutch-pass-face" y="2" x="1.5" />
-    <use xlink:href="#roller-clutch-axle-face" y="2" x="4.5"/>
-    <use xlink:href="#roller-axle" y="2" x="-.75" />
+    </g>
+    <use xlink:href="#ratchet-gear" y="2" x="0"/>
+    <use xlink:href="#ratchet-pall" y="2.5" x="1.5"/>
 </svg>

@@ -33,31 +33,27 @@
         <g id="cage-axle-mount">
             <path d="M -3.385 -2
                     l 1     0
-                    l 0     0.25
                     l 0.21  0
-                    l 0     -.25
                     l .79   0
                     l 1.5   0
                     l .79   0
-                    l 0     .25
                     l 0.21  0
-                    l 0     -.25
                     l 1     0
                     l 0     2
                     l 0     3.625
                     l 0     0.5
                     l -1    0
-                    l 0     -.25
                     l -.21  0
-                    l 0     +.25
                     l -.79  0
                     l -1.5  0
                     l -.79  0
-                    l 0     -.25
                     l -.21  0
-                    l 0     +.25
                     l -1    0
                     z" stroke-width=".01" stroke="red" fill="none"/>
+            <circle cx="0"      cy="-0.875" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-0.875" cy="-0.875" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="+0.875" cy="-0.875" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
+            <circle cx="-1.750" cy="-0.875" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
             <circle cx="0"      cy="0"      r=".13" stroke-width="0.01" stroke="red" fill="none"/>
             <circle cx="1.375"  cy="0"      r=".13" stroke-width="0.01" stroke="red" fill="none"/>
             <circle cx="-0.875" cy="0"      r=".13" stroke-width="0.01" stroke="red" fill="none"/>
