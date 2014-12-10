@@ -43,7 +43,9 @@
 
     <g display="show">
     <use xlink:href="#16spoke-2in" x="3.5" y="-3" />
+    <use xlink:href="#8spoke-1in" x="5" y="-3" />
     <use xlink:href="#8spoke-1in" x="4.5" />
+    <use xlink:href="#8spoke-1in" x="5.5" />
     <use xlink:href="#spacer" y="2" x="-1.5"/>
 
     <use xlink:href="#cage-back-side" />
