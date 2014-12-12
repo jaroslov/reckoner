@@ -33,8 +33,11 @@
         <g id="spacer">
             <use xlink:href="cage.svg#spacer"/>
         </g>
-        <g id="ratchet-gear">
-            <use xlink:href="ratchet.svg#ratchet-gear"/>
+        <g id="ratchet-on-axle">
+            <use xlink:href="ratchet.svg#ratchet-on-axle"/>
+        </g>
+        <g id="ratchet-thru-axle">
+            <use xlink:href="ratchet.svg#ratchet-thru-axle"/>
         </g>
         <g id="ratchet-pall">
             <use xlink:href="ratchet.svg#ratchet-pall"/>
@@ -44,8 +47,6 @@
     <g display="show">
     <use xlink:href="#16spoke-2in" x="3.5" y="-3" />
     <use xlink:href="#8spoke-1in" x="5" y="-3" />
-    <use xlink:href="#8spoke-1in" x="4.5" />
-    <use xlink:href="#8spoke-1in" x="5.5" />
     <use xlink:href="#spacer" y="2" x="-1.5"/>
 
     <use xlink:href="#cage-back-side" />
@@ -56,11 +57,9 @@
 
     <use xlink:href="#cage-axle-mount" x="-5" y="-1" />
     <use xlink:href="#16spoke-2in" display="none" transform="translate(-3.625 -1) rotate(11.25)" />
-    <use xlink:href="#8spoke-1in" display="none" transform="translate(-5 -1)" />
-    <use xlink:href="#8spoke-1in" display="none" transform="translate(-5.875 -1)" />
-    <use xlink:href="#8spoke-1in" display="none" transform="translate(-6.75 -1)" />
     <use xlink:href="#cage-rail-mount" x="-3" y="4" />
     </g>
-    <use xlink:href="#ratchet-gear" y="2" x="0"/>
-    <use xlink:href="#ratchet-pall" y="2.5" x="1.5"/>
+    <use xlink:href="#ratchet-on-axle" y="2" x="0"/>
+    <use xlink:href="#ratchet-thru-axle" y="2" x="1.5"/>
+    <use xlink:href="#ratchet-pall" y="2.5" x="2.5"/>
 </svg>
