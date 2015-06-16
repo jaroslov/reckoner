@@ -87,8 +87,24 @@
         <use xlink:href="#cage-rail-mount" x="11.1" y="14.8" />
         <use xlink:href="#16spoke-2in" x="1.25" y="16.3" />
         <use xlink:href="#16spoke-2in" x="3.25" y="16.3" />
+        <use xlink:href="#16spoke-2in" x="13" y="16.3" />
+        <use xlink:href="#16spoke-2in" x="15" y="16.3" />
         <use xlink:href="#ratchet-thru-axle" y="15.9" x="5.1"/>
-        <use xlink:href="#ratchet-on-axle" y="15.9" x="6.3"/>
+        <use xlink:href="#ratchet-thru-axle" y="15.9" x="6.3"/>
+        <use xlink:href="#ratchet-thru-axle" y="17.1" x="5.1"/>
+        <use xlink:href="#ratchet-thru-axle" y="17.1" x="6.3"/>
+        <use xlink:href="#ratchet-on-axle" y="15.9" x="7.5"/>
+        <use xlink:href="#ratchet-on-axle" y="15.9" x="8.7"/>
+        <use xlink:href="#ratchet-on-axle" y="17.1" x="7.5"/>
+        <use xlink:href="#ratchet-on-axle" y="17.1" x="8.7"/>
+        <use xlink:href="#ratchet-pall" y="15.9" x="9.6"/>
+        <use xlink:href="#ratchet-pall" y="16.5" x="9.6"/>
+        <use xlink:href="#ratchet-pall" y="17.1" x="9.6"/>
+        <use xlink:href="#ratchet-pall" y="17.7" x="9.6"/>
+        <use xlink:href="#ratchet-pall" y="15.9" x="10.8"/>
+        <use xlink:href="#ratchet-pall" y="16.5" x="10.8"/>
+        <use xlink:href="#ratchet-pall" y="17.1" x="10.8"/>
+        <use xlink:href="#ratchet-pall" y="17.7" x="10.8"/>
         <use xlink:href="#8spoke-1in" x="22.75" y=".75" />
         <use xlink:href="#8spoke-1in" x="22.75" y="1.85" />
         <use xlink:href="#8spoke-1in" x="22.75" y="2.95" />

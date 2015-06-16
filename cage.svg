@@ -9,26 +9,26 @@
             <circle cx="-0.75777" cy="+0.4375" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
             <circle cx="+0.75777" cy="-0.4375" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
             <circle cx="+0.75777" cy="+0.4375" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <text fill="blue" text-anchor="middle" x="-1" y="-1" font-size=".01" font-family="courier">Spur Gear Cage Back Side</text>
+            <!--<text fill="blue" text-anchor="middle" x="-1" y="-1" font-size=".01" font-family="courier">Spur Gear Cage Back Side</text>-->
         </g>
         <g id="cage-top-side" name="top-side cage">
             <path d="M -0.525 -1.2 l 1.05 0 l 0 2.4 l -1.05 0 z" stroke-width=".01" stroke="red" fill="none"/>
-            <text text-anchor="middle" font-size=".01" font-family="courier" fill="blue" transform="rotate(270)">Spur Gear Cage Top Side</text>
+            <!--<text text-anchor="middle" font-size=".01" font-family="courier" fill="blue" transform="rotate(270)">Spur Gear Cage Top Side</text>-->
         </g>
         <g id="spacer" name="spacer">
             <circle cx="0" cy="0" r=".13" stroke-width="0.01" stroke="red" fill="none"/>
             <circle cx="0" cy="0" r=".33" stroke-width="0.01" stroke="red" fill="none"/>
-            <text fill="blue" text-anchor="middle" y="-.18" font-size="0.1" font-family="courier">Spacer</text>
+            <!--<text fill="blue" text-anchor="middle" y="-.18" font-size="0.1" font-family="courier">Spacer</text>-->
         </g>
         <g id="cage-jig-pocket" name="cage jig pocket">
             <path d="M -1.825 -0.755 l 3.65 0 l 0 1.33 l -3.65 0 z" stroke-width=".01" stroke="red" fill="none" />
             <path d="M -2.075 -1.005 l 4.15 0 l 0 1.83 l -4.15 0 z" stroke-width=".01" stroke="red" fill="none" />
-            <text text-anchor="middle" x="0" y="-0.85" font-size=".01" fill="blue" font-family="courier">Spur Gear Cage Jig</text>
+            <!--<text text-anchor="middle" x="0" y="-0.85" font-size=".01" fill="blue" font-family="courier">Spur Gear Cage Jig</text>-->
         </g>
         <g id="cage-jig-guide" name="cage jig guide">
             <path d="M -1.825 -0.755 l 3.65 0 l 0 1.33 l -3.65 0 z" stroke-width=".01" stroke="blue" fill="none" />
             <path d="M -2.075 -1.005 l 4.15 0 l 0 1.83 l -4.15 0 z" stroke-width=".01" stroke="red" fill="none" />
-            <text fill="blue" text-anchor="middle" x="0" y="0" font-size=".01" font-family="courier">Spur Gear Cage Jig Guide</text>
+            <!--<text fill="blue" text-anchor="middle" x="0" y="0" font-size=".01" font-family="courier">Spur Gear Cage Jig Guide</text>-->
         </g>
         <g id="cage-axle-mount">
             <path d="M -3.385 -2
@@ -67,9 +67,9 @@
             <circle cx="-2.625" cy="0.875"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
             <circle cx="0"      cy="1.750"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
             <circle cx="-2.625" cy="1.750"  r=".13" stroke-width="0.01" stroke="red" fill="none"/>
-            <text fill="blue" text-anchor="middle" x="-.5" y="-.25" font-size=".01" font-family="courier">Top</text>
-            <text fill="blue" text-anchor="middle" x="-.5" y="1.5" font-size=".01" font-family="courier">Cage Axle Mount</text>
-            <text fill="blue" text-anchor="middle" x="-.5" y="2.75" font-size=".01" font-family="courier">Bottom</text>
+            <!--<text fill="blue" text-anchor="middle" x="-.5" y="-.25" font-size=".01" font-family="courier">Top</text>-->
+            <!--<text fill="blue" text-anchor="middle" x="-.5" y="1.5" font-size=".01" font-family="courier">Cage Axle Mount</text>-->
+            <!--<text fill="blue" text-anchor="middle" x="-.5" y="2.75" font-size=".01" font-family="courier">Bottom</text>-->
         </g>
         <g id="cage-rail-mount">
             <path d="M -6 -.25
@@ -136,7 +136,7 @@
                 l 0 .5
                 l -12 0
                 z" stroke-width=".01" stroke="red" fill="none" />
-            <text fill="blue" y=".15" text-anchor="middle" font-size=".01" font-family="courier">Cage Rail Mount</text>
+            <!--<text fill="blue" y=".15" text-anchor="middle" font-size=".01" font-family="courier">Cage Rail Mount</text>-->
         </g>
     </defs>
 </svg>

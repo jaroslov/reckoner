@@ -24,12 +24,12 @@
     <g id="ratchet-on-axle">
         <use xlink:href="#ratchet" />
         <circle cx="0" cy="0" r="0.13" stroke="red" stroke-width="0.01" fill="none"/>
-        <text fill="blue" y="-.25" text-anchor="middle" font-size=".01" font-family="courier">Ratchet on Axle</text>
+        <!--<text fill="blue" y="-.25" text-anchor="middle" font-size=".01" font-family="courier">Ratchet on Axle</text>-->
     </g>
     <g id="ratchet-thru-axle">
         <use xlink:href="#ratchet" />
         <circle cx="0" cy="0" r="0.15" stroke="red" stroke-width="0.01" fill="none"/>
-        <text fill="blue" y="-.25" text-anchor="middle" font-size=".01" font-family="courier">Ratchet thru Axle</text>
+        <!--<text fill="blue" y="-.25" text-anchor="middle" font-size=".01" font-family="courier">Ratchet thru Axle</text>-->
     </g>
     <g id="ratchet-pall">
         <path d="M -0.15    -0.15
@@ -38,7 +38,7 @@
                  l -1.00    -0.45
                  z" stroke="red" stroke-width="0.01" fill="none"/>
         <circle cx="+.158" cy="-0.34" r="0.15" stroke="red" stroke-width="0.01" fill="none"/>
-        <text fill="blue" transform="translate(0.6 -.1) rotate(7)" text-anchor="middle" font-size=".01" font-family="courier">Ratchet Pall</text>
+        <!--<text fill="blue" transform="translate(0.6 -.1) rotate(7)" text-anchor="middle" font-size=".01" font-family="courier">Ratchet Pall</text>-->
     </g>
 </defs>
 </svg>

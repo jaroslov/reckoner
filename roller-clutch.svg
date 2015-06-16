@@ -9,26 +9,26 @@
         <g id="roller-clutch">
             <path d="m -48.7 0.3 12.45546 0.0 c 0.0 0.0 0.0846 -0.02 0.0 -33.32313 15.59831 -16.20613 36.3933 -16.25049 36.3933 -16.25049 m 0.36242 98.05994 0.0 -12.45546 c 0.0 0.0 -0.02 -0.0846 -33.32313 0.0 -16.20613 -15.59831 -16.25049 -36.3933 -16.25049 -36.3933 m 98.05994 -0.36243 -12.45546 0.0 c 0.0 0.0 -0.0846 0.02 0.0 33.32313 -15.59831 16.20613 -36.3933 16.25049 -36.3933 16.25049 m -0.5 -98.25456 0.0 12.45546 c 0.0 0.0 0.02 0.0846 33.32313 0.0 16.20613 15.59831 16.25049 36.3933 16.25049 36.3933" fill="none" stroke-width="1px" stroke="red" transform="scale(0.01 0.01)"/>
             <circle cx="0" cy="0" r="12.7" stroke="red" stroke-width="1px" fill="none" transform="scale(0.01 0.01)"/>
-            <text fill="blue" text-anchor="middle" x="0" y="-.2" font-size=".01" font-family="courier">Clutch</text>
+            <!--<text fill="blue" text-anchor="middle" x="0" y="-.2" font-size=".01" font-family="courier">Clutch</text>-->
         </g>
         <g id="roller-clutch-race">
             <circle cx="0" cy="0" r="52" stroke="red" stroke-width="1px" fill="none" transform="scale(0.01 0.01)"/>
             <circle cx="0" cy="0" r="70" stroke="red" stroke-width="1px" fill="none" transform="scale(0.01 0.01)"/>
-            <text fill="blue" text-anchor="middle" x="0" y="-.55" font-size=".01" font-family="courier">Race</text>
+            <!--<text fill="blue" text-anchor="middle" x="0" y="-.55" font-size=".01" font-family="courier">Race</text>-->
         </g>
         <g id="roller-clutch-pass-face">
             <circle cx="0" cy="0" r="42" stroke="red" stroke-width="1px" fill="none" transform="scale(0.01 0.01)"/>
             <circle cx="0" cy="0" r="70" stroke="red" stroke-width="1px" fill="none" transform="scale(0.01 0.01)"/>
-            <text fill="blue" text-anchor="middle" x="0" y="-.5" font-size=".01" font-family="courier">Pass Face</text>
+            <!--<text fill="blue" text-anchor="middle" x="0" y="-.5" font-size=".01" font-family="courier">Pass Face</text>-->
         </g>
         <g id="roller-clutch-axle-face">
             <circle cx="0" cy="0" r="70" stroke="red" stroke-width="1px" fill="none" transform="scale(0.01 0.01)"/>
             <circle cx="0" cy="0" r="12.7" stroke="red" stroke-width="1px" fill="none" transform="scale(0.01 0.01)"/>
-            <text fill="blue" text-anchor="middle" x="0" y="-.3" font-size=".01" font-family="courier">Axle Face</text>
+            <!--<text fill="blue" text-anchor="middle" x="0" y="-.3" font-size=".01" font-family="courier">Axle Face</text>-->
         </g>
         <g id="roller-axle">
             <circle cx="0" cy="0" r=".0633in" fill="none" stroke="red" stroke-width="1px" transform="scale(0.01 0.01)"/>
-            <text fill="blue" text-anchor="middle" x="0" y=".03" font-size=".01" font-family="courier">a</text>
+            <!--<text fill="blue" text-anchor="middle" x="0" y=".03" font-size=".01" font-family="courier">a</text>-->
         </g>
     </defs>
 </svg>
